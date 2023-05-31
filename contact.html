@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel = "stylesheet" href = "contact.css">
+</head>
+<body>
+  <section id = "header">
+
+    <a href = "web.html"><img src = "image (1).png" class = "logo" id= "logo" width = "100" height="90"></a>
+    <div>
+        <ul id = "navbar">
+            <li ><a id="home" href = "web.html" class="active" >Home </a></li>
+            <li><a href = "shop.html" class="item">Shop </a></li>
+            <li><a href = "Blog.html" class="item">Blog </a></li>
+            <li><a href = "About.html" class="item">About </a></li>
+            <li><a href = "Contact.html"class="item">Contact </a></li>
+            <li><a href = "Cart.html" class="item" ><i class="fa-regular fa-cart-shopping"></i></i></a></li>
+        </ul>
+      
+    </div>
+   
+</section>
+
+    <div class="contain">
+
+        <div class="wrapper">
+      
+          <div class="form">
+            <h4>GET IN TOUCH</h4>
+            <h2 class="form-headline">Send us a message</h2>
+            <form id="submit-form" action="">
+              <p>
+                <input id="name" class="form-input" type="text" placeholder="Your Name*">
+                <small class="name-error"></small>
+              </p>
+              <p>
+                <input id="email" class="form-input" type="email" placeholder="Your Email*">
+                <small class="name-error"></small>
+              </p>
+              <p class="full-width">
+                <input id="company-name" class="form-input" type="text" placeholder="phone number*" required>
+                <small></small>
+              </p>
+              <p class="full-width">
+                <textarea  minlength="20" id="message" cols="30" rows="7" placeholder="Your Message*" required></textarea>
+                <small></small>
+              </p>
+              <p class="full-width">
+                <input type="checkbox" id="checkbox" name="checkbox" checked> Yes, I would like to receive communications by call / email about Company's services.
+              </p>
+              <p class="full-width">
+                <input type="submit" class="submit-btn" value="Submit" onclick="checkValidations()">
+                <button class="reset-btn" onclick="reset()">Reset</button>
+              </p>
+            </form>
+          </div>
+      
+          <div class="contacts contact-wrapper">
+      
+            <ul>
+              <li>We've driven online revenues of over <span class="highlight-text-grey">$2
+                  billion</span> for our clients. Ready to know
+                how we can help you?</li>
+              <span class="hightlight-contact-info">
+                <li class="email-info"><i class="fa fa-envelope" aria-hidden="true"></i> info@demo.com</li>
+                <li><i class="fa fa-phone" aria-hidden="true"></i> <span class="highlight-text">+91 11 1111 2900</span></li>
+              </span>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <section id="footer">
+        <div>
+            <a href = "#"><img src = "image (1).png" id="foot-logo"  width = "140" height="140"></a>
+        </div>
+        <div id="address">
+            <p id="fo-co">Contact</p>
+            <p class="fo"><span>Address: </span> 562 street no-6,india</p>
+            <p class="fo"><span>Phone: </span> (+91) 9318406271 / (+91) 9212126800</p>
+            <p class="fo"><span>Hours:</span> 10 A.M - 11 P.M, Mon - Sat</p>
+            <P id="copyright">© 2021, Tech2 etc - HTM CSS Ecommerce website</P>
+        </div>
+
+        <div id="about">
+            <h2 class="f-top">About</h2>
+            
+                <a href="#" class="foot-item"> About us</a>
+                <a href="#" class="foot-item"> Delivery information</a>
+                <a href="#" class="foot-item"> Privacy Policy</a>
+                <a href="#" class="foot-item"> Terms & condition</a>
+                <a href="#" class="foot-item"> Contact us</a>
+            
+        </div>
+        <div id="my-contact">
+            <h2 class="f-top">My account</h2>
+           
+                <a href="#" class="foot-item"> Sign In</a>
+                <a href="#" class="foot-item"> View Cart</a>
+                <a href="#" class="foot-item"> My Whishlist</a>
+                <a href="#" class="foot-item"> Track My Order</a>
+                <a href="#" class="foot-item"> Help</a>
+                
+           
+        </div>
+       
+    </section>
+</body>
+</html>
